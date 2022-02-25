@@ -1,0 +1,6 @@
+random_word = input("Podaj dowolny tekst, który ma co najmniej 7 znaków: ")
+print(f"Wybrany wyraz to: {random_word}")
+x = len(random_word)
+print(f"Liczba znaków: {x}")
+print(f"Pierwsza litera: {random_word[0]}, ostatnia: {random_word[-1]}")
+print(f"Trzy dowolne znaki ze środka to: {random_word[1:4]}")
