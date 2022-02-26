@@ -1,0 +1,17 @@
+number_of_cats = int(input("Ile Ala ma kotów? "))
+print("Dzisiaj Ala znalazła jeszcze 3 koty w plecaku")
+cats = number_of_cats + 3
+print(f"Teraz Ala ma już {cats} kotów")
+sentence1 = f"Teraz Ala ma już {cats} kotów"
+sentence = sentence1.replace(" ", ",")
+print(sentence)
+sentence.split(",")
+print(sentence.split(",")[0])
+print(sentence.split(",")[1])
+print(sentence.split(",")[2])
+print(sentence.split(",")[3])
+print(sentence.split(",")[4])
+print(sentence.split(",")[5])
+print(sentence1.islower())
+print(sentence1.lower())
+print(sentence1.capitalize())
